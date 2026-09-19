@@ -119,7 +119,7 @@ function Hero() {
             </a>
             <a
               href={cv}
-              download="956krushna.pdf"
+              download="956Krushna.pdf"
               className="
                 inline-flex
                 items-center
