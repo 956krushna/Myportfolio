@@ -1,10 +1,12 @@
 import profileImage from "../assets/Mee.png";
-import resume from "../assets/956Krushna.pdf"
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 import mail from "../assets/mail.png"
 
 function Hero() {
+
+  const resume = `${import.meta.env.BASE_URL}956Krushna.pdf`;
+
   return (
     <section
       id="home"
@@ -119,7 +121,8 @@ function Hero() {
             </a>
             <a
               href={resume}
-              download="956Krushna.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="
                 inline-flex
                 items-center
