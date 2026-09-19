@@ -1,5 +1,5 @@
 import profileImage from "../assets/Mee.png";
-import cv from "../assets/956Krushna.pdf"
+import resume from "../assets/956Krushna.pdf"
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 import mail from "../assets/mail.png"
@@ -118,7 +118,7 @@ function Hero() {
               <span className="text-lg">→</span>
             </a>
             <a
-              href={cv}
+              href={resume}
               download="956Krushna.pdf"
               className="
                 inline-flex
