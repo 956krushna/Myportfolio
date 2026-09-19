@@ -12,13 +12,13 @@ const projects = [
     github: "https://github.com/956krushna/RakhtSetu-Bridge-of-Blood",
   },
   {
-    title: "My Daily Dose",
+    title: "DailyUpdate",
     image: daily,
     description:
-      "My Daily Dose is a responsive news web application that allows users to explore the latest news across categories such as business, entertainment, sports, science, and technology.",
+      "DailyUpdate is a responsive news web application that allows users to explore the latest news across categories such as business, entertainment, sports, science, and technology.",
     technologies: ["HTML", "BootStrap", "JavaScript", "React.js"],
     live: "#",
-    github: "https://github.com/956krushna/My-Daily-Dose.",
+    github: "https://github.com/956krushna/DailyUpdate",
   },
 ];
 

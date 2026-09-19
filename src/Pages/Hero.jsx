@@ -1,5 +1,5 @@
 import profileImage from "../assets/Mee.png";
-import cv from "../assets/Krushnaa.pdf"
+import cv from "../assets/956Krushna.pdf"
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 import mail from "../assets/mail.png"
@@ -119,7 +119,7 @@ function Hero() {
             </a>
             <a
               href={cv}
-              download="Krushnaa.pdf"
+              download="956krushna.pdf"
               className="
                 inline-flex
                 items-center
