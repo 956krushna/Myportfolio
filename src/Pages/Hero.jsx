@@ -1,5 +1,8 @@
 import profileImage from "../assets/Mee.png";
 import cv from "../assets/Krushnaa.pdf"
+import github from "../assets/github.png"
+import linkedin from "../assets/linkedin.png"
+import mail from "../assets/mail.png"
 
 function Hero() {
   return (
@@ -149,19 +152,19 @@ function Hero() {
               href="https://github.com/956krushna"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-secondary)]   transition-all duration-300 hover:border-[var(--primary)] "
             >
-              <img src="/src/assets/github.png" alt="github" className="h-8"/>
+              <img src={github} alt="github" className="h-8"/>
             </a>
             <a
               href="https://www.linkedin.com/in/956krushna/"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-secondary)] transition-all duration-300 hover:border-[var(--primary)] "
             >
-              <img src="/src/assets/linkedin.png" alt="linkedin" className="h-8"/>
+              <img src={linkedin} alt="linkedin" className="h-8"/>
             </a>
             <a
               href="mailto:956krushna@gmail.com"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--bg-secondary)]  transition-all duration-300 hover:border-[var(--secondary)]"
             >
-              <img src="/src/assets/mail.png" alt="mail" className="h-8"/>
+              <img src={mail} alt="mail" className="h-8"/>
             </a>
           </div>
         </div>

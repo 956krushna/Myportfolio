@@ -1,3 +1,8 @@
+import km from "../assets/KM.png"
+import github from "../assets/github.png"
+import linkedin from "../assets/linkedin.png"
+import mail from "../assets/mail.png"
+
 function Contact() {
   return (
     <>
@@ -230,7 +235,7 @@ function Contact() {
           {/* LOGO */}
           <a href="#home" className="flex items-center gap-3">
             <img
-              src="/src/assets/KM.png"
+              src={km}
               alt="KM Logo"
               className="h-10 w-auto"
             />
@@ -249,19 +254,19 @@ function Contact() {
               href="https://github.com/956krushna"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)]  transition-all hover:border-[var(--primary)] "
             >
-              <img src="/src/assets/github.png" alt="github" className="h-8"/>
+              <img src={github} alt="github" className="h-8"/>
             </a>
             <a
               href="https://www.linkedin.com/in/956krushna/"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)]  transition-all hover:border-[var(--primary)] "
             >
-              <img src="/src/assets/linkedin.png" alt="linkedin" className="h-8"/>
+              <img src={linkedin} alt="linkedin" className="h-8"/>
             </a>
             <a
               href="mailto:956krushna@gmail.com"
               className="flex h-9 w-9 items-center justify-center rounded-full border border-[var(--border)]  transition-all hover:border-[var(--secondary)] "
             >
-              <img src="/src/assets/mail.png" alt="mail" className="h-8"/>
+              <img src={mail} alt="mail" className="h-8"/>
             </a>
           </div>
           {/* COPYRIGHT */}
