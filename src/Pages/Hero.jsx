@@ -2,10 +2,11 @@ import profileImage from "../assets/Mee.png";
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
 import mail from "../assets/mail.png"
+import cv from "../assets/krushna.pdf"
 
 function Hero() {
 
-  const resume = `${import.meta.env.BASE_URL}956Krushna.pdf`;
+  
 
   return (
     <section
@@ -120,9 +121,8 @@ function Hero() {
               <span className="text-lg">→</span>
             </a>
             <a
-              href={resume}
-              target="_blank"
-              rel="noopener noreferrer"
+              href={cv}
+              download="krushna.pdf"
               className="
                 inline-flex
                 items-center
