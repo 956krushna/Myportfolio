@@ -1,4 +1,4 @@
-import rakhtsetu from "../assets/rakhsetu.png";
+import rakhtsetu from "../assets/rakhtsetu.png";
 import daily from "../assets/Daily.png";
 
 const projects = [
